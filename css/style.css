@@ -1,142 +1,119 @@
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    background-color: #f8f8f8;
 }
 
 header {
-  background-color: #ffffff;
-  padding: 1rem;
+    background-color: #ffffff;
+    padding: 1rem;
+    text-align: center;
 }
 
 nav {
-  background-color: #f1f1f1;
-  padding: 1rem;
-  border: 1px black solid transparent;
-  border-radius: 12px;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
-  display: inline-block;
-  margin-right: 1rem;
+    display: inline-block;
+    margin-right: 1rem;
 }
 
 nav a {
-  display: block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  color: #333;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out;
 }
 
 nav a:hover {
-  background-color: #ddd;
-  border: 1px black solid transparent;
-  border-radius: 12px;
+    background-color: #ddd;
+    border-radius: 12px;
 }
 
 main {
-  padding: 2rem;
+    padding: 2rem;
 }
 
 section {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 section h2 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 a {
-  text-decoration: none;
-  color: #333;
+    text-decoration: none;
+    color: #333;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .youtube-image {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  margin-right: 1rem;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 1rem;
+    border-radius: 12px;
 }
 
 @media screen and (min-width: 768px) {
-  nav li {
-    display: inline-block;
-    margin-right: 2rem;
-  }
-}
+    nav li {
+        display: inline-block;
+        margin-right: 2rem;
+    }
 
-header img {
-    display: block;
-    margin: auto;
-    padding: 0;
-    padding-top: 0;
-    border: 1px black solid transparent;
-    border-radius: 12px;
-}
-
-a img {
-    border: 1px black solid transparent;
-    border-radius: 12px;
+    header img {
+        width: auto;
+        height: 100px;
+    }
 }
 
 .button-45 {
-  align-items: center;
-  background-color: #FFE7E7;
-  background-position: 0 0;
-  border: 1px solid #FEE0E0;
-  border-radius: 11px;
-  box-sizing: border-box;
-  color: #D33A2C;
-  cursor: pointer;
-  display: flex;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 33.4929px;
-  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
-  padding: 2px 12px;
-  text-align: left;
-  text-decoration: none;
-  text-shadow: none;
-  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
-  -webkit-user-select: none;
-  user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  word-break: break-word;
+    background-color: #FFE7E7;
+    border: 1px solid #FEE0E0;
+    border-radius: 11px;
+    color: #D33A2C;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 33.4929px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: block;
+    margin: auto;
 }
 
 .button-45:active,
 .button-45:hover,
 .button-45:focus {
-  outline: 0;
+    outline: 0;
 }
 
-
 .button-45:active {
-  background-color: #D33A2C;
-  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
-  color: #FFFFFF;
+    background-color: #D33A2C;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+    color: #FFFFFF;
 }
 
 .button-45:hover {
-  background-color: #FFE3E3;
-  border-color: #FAA4A4;
-}
-
-.button-45:active:hover,
-.button-45:focus:hover,
-.button-45:focus {
-  background-color: #D33A2C;
-  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
-  color: #FFFFFF;
+    background-color: #FFE3E3;
+    border-color: #FAA4A4;
 }
