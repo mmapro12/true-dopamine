@@ -168,3 +168,15 @@ footer a:hover {
   font-family: monospace;
   font-size: xx-large;
 }
+
+.poster-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust this value to match the height of the parent container */
+}
+
+.poster {
+  text-align: center;
+  width: 80%;
+}
