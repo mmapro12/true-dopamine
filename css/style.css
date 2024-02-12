@@ -72,6 +72,13 @@ a:hover {
   border-radius: 12px;
 }
 
+.playlist {
+  height: 150px;
+  width: auto;
+  margin: 1rem;
+  border-radius: 12px;
+}
+
 @media screen and (min-width: 768px) {
   nav li {
     display: inline-block;
